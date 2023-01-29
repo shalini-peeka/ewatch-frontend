@@ -1,38 +1,52 @@
 .App {
   text-align: center;
+  /* background-color: rgb(155, 155, 211); */
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  background: rgb(52, 48, 99);
+  color:white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box{
+  margin-top:50px ;
+  margin: auto;
+  align: center;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: rgb(129, 149, 161);
+}
+.container{
+  border: 1px solid black;
+  margin-top: 20px;
+  background-color:rgb(163, 160, 201);
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(160, 166, 168);
+  padding: 10px;
+}
+input:hover{
+  background-color:rgb(253, 250, 250);
+}
+/* .main{
+  background-image: url("./background.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+img {
+  opacity: 0.8;
 }
